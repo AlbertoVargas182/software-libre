@@ -1,0 +1,320 @@
+body{
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    background-image: url(/imagenes/libreso.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    overflow-x: hidden;
+
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    
+    
+}
+
+
+/* texto de header: inicio, autor, acerca de linux y distribuciones */
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    background: rgb(125,126,125); 
+    background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+    
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+
+.logo img{
+    height: 160px;
+    margin-left: -40px;
+}
+
+.tituloLogo{
+    font-size: 40px;
+    margin-left: -70px;
+    color: white;
+
+}
+
+/* color de titulo al pasar el mouse encima de el */
+ h1:hover{
+    color: orange;
+}
+
+
+
+
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    
+    
+    
+}
+
+#menu a{
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+
+/* color de letras al pasar el mouse encima */
+#menu a:hover{
+    background-color: orange;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    
+    color: rgb(201, 194, 194);
+    
+
+}
+
+#hero h2{
+    font-size: 5.5em;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    
+}
+
+
+
+#footer{
+    background: #fceabb; /* Old browsers */
+    background: -moz-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%); 
+    background: -webkit-linear-gradient(top, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); 
+    background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 );
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    min-height: 70px;
+    
+    
+    padding: 10px;
+    flex-direction: column;
+    margin-bottom: auto;
+    list-style: none;
+    justify-items: center;
+    
+    
+}
+
+
+/* contenido de footer */
+.grid-footer ul{
+    list-style: none; 
+    text-decoration: none;
+    
+    
+      
+}
+
+
+
+#footer a li{
+    padding: 5px;
+    
+}
+
+#footer a{
+    color: black;
+}
+
+#footer a:hover{
+    color: white;
+    
+    
+}
+
+
+.copy{
+    font-size: 12px;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 900px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.818);
+    border: rgb(235, 135, 13) 5px solid;
+    padding: 2px;
+}
+
+/* titulo de texto sobre linux */
+.tituloprincipal{
+    font-size: 50px;
+}
+
+
+.img1{
+    width: 200px;
+    height: 200px;
+    border: 5px solid orange;
+}
+
+/* imagen de pestaña autor */
+.img4{
+    width: 300px;
+    min-height: 300px;
+    border: 5px solid orange ;
+}
+
+
+
+.link1{
+    float: left;
+    text-decoration: none;
+}
+
+
+    
+
+
+/* Tarjeta de distribuciones */
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/*body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+}*/
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #f3f3f3;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    min-height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.container .card{
+    width: 330px;
+    height: 470px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: rgba(255, 255, 255, 0.854);
+
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 13px;
+    font-weight: 300;
+
+}
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+
+}
+
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/* media alternativo */
+
+
+
+
+
+    
+    
+
+
+
